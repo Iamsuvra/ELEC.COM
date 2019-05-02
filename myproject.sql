@@ -22,8 +22,8 @@ CREATE TABLE `product` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `price` varchar(50) NOT NULL,
-  `category` varchar(50) NOT NULL,
-  `featured` varchar(50) NOT NULL,
+  `desc` varchar(50) NOT NULL,
+  `brand` varchar(50) NOT NULL,
   `image` varchar(255) NOT NULL
 ) ;
 
